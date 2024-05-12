@@ -11,7 +11,7 @@ public class CoordinateCalculator
         this.worldRadius = worldRadius;
     }
 
-    public Vector2 CalculateRealCoordinates(Vector3 position)
+    public Coordinate CalculateRealCoordinates(Vector3 position)
     {
         Vector3 projectedPosition = position.normalized * worldRadius;
 
@@ -23,7 +23,7 @@ public class CoordinateCalculator
         longitude = (longitude + 360) % 360;
         if (longitude > 180) longitude -= 360;
 
-        return new Vector2(latitude, longitude);
+        return new Coordinate(longitude, latitude);
     }
 
     public float CalculateHeading(Vector3 position, Vector3 forward)

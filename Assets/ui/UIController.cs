@@ -13,6 +13,8 @@ public class UIController : MonoBehaviour
     public Compass compass;
     public TextMeshProUGUI locationText;
 
+    public CountryLookup countryLookup;
+
     private CoordinateCalculator coordinateCalculator;
 
     private void OnEnable()
@@ -26,7 +28,9 @@ public class UIController : MonoBehaviour
         float heading = coordinateCalculator.CalculateHeading(player.transform.position, player.transform.forward);
         compass.UpdateHeading(heading);
 
-        Vector2 realCoordinates = coordinateCalculator.CalculateRealCoordinates(player.transform.position);
-        locationText.text = $"Location\nlat: {Mathf.Round(realCoordinates.x * 1000) / 1000}\nlng: {Mathf.Round(realCoordinates.y * 1000) / 1000}\nGo and find Africa ;)";
+        Coordinate realCoordinates = coordinateCalculator.CalculateRealCoordinates(player.transform.position);
+        locationText.text = $"Location\nlat: {Mathf.Round(realCoordinates.latitude * 1000) / 1000}\nlng: {Mathf.Round(realCoordinates.longitude * 1000) / 1000}\nGo and find Africa ;)";
+
+        float countryIndex = countryLookup.LookupIndex(realCoordinates);
     }
 }

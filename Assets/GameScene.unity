@@ -1293,6 +1293,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577063905}
   m_CullTransparentMesh: 1
+--- !u!1 &1637403986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637403988}
+  - component: {fileID: 1637403987}
+  m_Layer: 0
+  m_Name: Location System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637403987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637403986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb1e0c60917d9d4396d9caea2d4d74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookupShader: {fileID: 7200000, guid: ee0596be14d1b0344899dafeab98c19d, type: 3}
+  countryIndices: {fileID: 2800000, guid: 2a30cd773e1e01043b3249e2c624107e, type: 3}
+--- !u!4 &1637403988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637403986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 187.1374, y: 131.73167, z: 0.81047195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1743047543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,10 +1394,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1152531278}
     m_Modifications:
-    - target: {fileID: 4083501151425157549, guid: 4e2df9391b2b70b4a9051a1049916051, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
@@ -1417,6 +1459,10 @@ PrefabInstance:
       value: planet
       objectReference: {fileID: 0}
     - target: {fileID: 2876469670059727035, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e2df9391b2b70b4a9051a1049916051, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1742,6 +1788,7 @@ MonoBehaviour:
   planetSettings: {fileID: 1255848961}
   compass: {fileID: 1409319574}
   locationText: {fileID: 2129513748}
+  countryLookup: {fileID: 1637403987}
 --- !u!1 &2118143518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,3 +2096,4 @@ SceneRoots:
   - {fileID: 1743047545}
   - {fileID: 1945351730}
   - {fileID: 1152531278}
+  - {fileID: 1637403988}
