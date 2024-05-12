@@ -15,5 +15,5 @@ float2 uv;
 void CSMain(uint3 id : SV_DispatchThreadID)
 {
     float countryIndex = _CountryIndicesTex.SampleLevel(country_point_clamp, uv, 0);
-    _Result[0] = countryIndex;
+    _Result[0] = countryIndex * 255;
 }

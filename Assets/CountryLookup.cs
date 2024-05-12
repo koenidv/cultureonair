@@ -27,7 +27,8 @@ public class CountryLookup : MonoBehaviour
         lookupShader.Dispatch(0, 1, 1, 1);
         float[] result = new float[1];
         resultBuffer.GetData(result);
-        print(result[0] * 255);
+        print(coordinate.ToUV().x.ToString() + ", " + coordinate.ToUV().y.ToString());
+        print(result[0]);
         return result[0];
     }
 
