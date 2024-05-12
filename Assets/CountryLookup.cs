@@ -4,6 +4,7 @@ public class CountryLookup : MonoBehaviour
 {
     public ComputeShader lookupShader;
     public Texture2D countryIndices;
+    public CountriesLoader countriesLoader;
 
     ComputeBuffer resultBuffer;
 
@@ -20,12 +21,19 @@ public class CountryLookup : MonoBehaviour
         lookupShader.SetBuffer(0, "_Result", resultBuffer);
     }
 
-    public float LookupIndex(Coordinate coordinate)
+    public string LookupCountryName(Coordinate coordinate)
+    {
+        int index = LookupIndex(coordinate) - 1;
+        if (index < 0) return null;
+        return countriesLoader.GetCountries()[index].c_name;
+    }
+
+    public int LookupIndex(Coordinate coordinate)
     {
         SetResultBuffer(); // result buffer isn't restored after hot reload
         lookupShader.SetVector("uv", coordinate.ToUV());
         lookupShader.Dispatch(0, 1, 1, 1);
-        float[] result = new float[1];
+        int[] result = new int[1];
         resultBuffer.GetData(result);
         print(coordinate.ToUV().x.ToString() + ", " + coordinate.ToUV().y.ToString());
         print(result[0]);

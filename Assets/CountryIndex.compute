@@ -6,7 +6,7 @@
 Texture2D<float> _CountryIndicesTex;
 SamplerState country_point_clamp;
 
-RWStructuredBuffer<float> _Result;
+RWStructuredBuffer<int> _Result;
 
 float2 uv;
 
@@ -14,6 +14,6 @@ float2 uv;
 [numthreads(1, 1, 1)]
 void CSMain(uint3 id : SV_DispatchThreadID)
 {
-    float countryIndex = _CountryIndicesTex.SampleLevel(country_point_clamp, uv, 0);
-    _Result[0] = countryIndex * 255;
+    float countryIndex = _CountryIndicesTex.SampleLevel(country_point_clamp, uv, 0) * 255.0f;
+    _Result[0] = (int) countryIndex;
 }

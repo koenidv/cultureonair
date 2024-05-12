@@ -29,8 +29,15 @@ public class UIController : MonoBehaviour
         compass.UpdateHeading(heading);
 
         Coordinate realCoordinates = coordinateCalculator.CalculateRealCoordinates(player.transform.position);
-        locationText.text = $"Location\nlat: {Mathf.Round(realCoordinates.latitude * 1000) / 1000}\nlng: {Mathf.Round(realCoordinates.longitude * 1000) / 1000}\nGo and find Africa ;)";
 
-        float countryIndex = countryLookup.LookupIndex(realCoordinates);
+        string countryName = countryLookup.LookupCountryName(realCoordinates);
+        if (countryName != null)
+        {
+            locationText.text = countryName;
+        }
+        else
+        {
+            locationText.text = $"Location\nlat: {Mathf.Round(realCoordinates.latitude * 1000) / 1000}\nlng: {Mathf.Round(realCoordinates.longitude * 1000) / 1000}\nGo and find Africa ;)";
+        }
     }
 }

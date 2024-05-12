@@ -1323,7 +1323,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookupShader: {fileID: 7200000, guid: ee0596be14d1b0344899dafeab98c19d, type: 3}
-  countryIndices: {fileID: 2800000, guid: cd0d02413a76f104e989ca608cc8e783, type: 3}
+  countryIndices: {fileID: 2800000, guid: f26b17f649a7be14daba6df752f7a6b4, type: 3}
+  countriesLoader:
+    data: {fileID: 4900000, guid: 1b6c850852533c043ac54abc7ed5fa30, type: 3}
 --- !u!4 &1637403988
 Transform:
   m_ObjectHideFlags: 0
