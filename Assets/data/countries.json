@@ -1174,5 +1174,53 @@
         "c_name": "Zimbabwe",
         "p_id": "6TPHCNm0tvOx6gC0MJ5rZO",
         "p_name": "Top 50 - Zimbabwe"
+    },
+    {
+        "c_id": "OC_ARC",
+        "c_name": "Artic Ocean"
+    },
+    {
+        "c_id": "OC_NATL",
+        "c_name": "North Atlantic"
+    },
+    {
+        "c_id": "OC_SATL",
+        "c_name": "South Atlantic"
+    },
+    {
+        "c_id": "OC_NPAC",
+        "c_name": "North Pacific"
+    },
+    {
+        "c_id": "OC_SPAC",
+        "c_name": "South Pacific"
+    },
+    {
+        "c_id": "OC_BAL",
+        "c_name": "Baltic Sea"
+    },
+    {
+        "c_id": "OC_MED",
+        "c_name": "Mediterranean Sea"
+    },
+    {
+        "c_id": "OC_IND",
+        "c_name": "Indian Ocean"
+    },
+    {
+        "c_id": "OC_CHI",
+        "c_name": "South China Sea"
+    },
+    {
+        "c_id": "OC_SOU",
+        "c_name": "Southern Ocean"
+    },
+    {
+        "c_id": "OC_BLK",
+        "c_name": "Black Sea"
+    },
+    {
+        "c_id": "OC_CSP",
+        "c_name": "Caspian Sea"
     }
 ]

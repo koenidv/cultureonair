@@ -7,6 +7,7 @@ public class CountryLookup : MonoBehaviour
     public CountriesLoader countriesLoader;
 
     ComputeBuffer resultBuffer;
+    int lastIndex;
 
     private void Start()
     {
@@ -35,8 +36,8 @@ public class CountryLookup : MonoBehaviour
         lookupShader.Dispatch(0, 1, 1, 1);
         int[] result = new int[1];
         resultBuffer.GetData(result);
-        print(coordinate.ToUV().x.ToString() + ", " + coordinate.ToUV().y.ToString());
-        print(result[0]);
+        if (result[0] == 0) return lastIndex;
+        lastIndex = result[0];
         return result[0];
     }
 

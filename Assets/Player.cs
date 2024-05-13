@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using static UnityEngine.ParticleSystem;
+using UnityEngine.Rendering;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +27,11 @@ public class Player : MonoBehaviour
     public float maxPitch;
     public float maxRoll;
 
+    [Header("Display")]
+    public bool drawPositionLine;
+    public Material positionLineMaterial;
+    public float positionLineSpeed;
+
     GameCamera gameCamera;
 
     float worldRadius;
@@ -42,12 +49,14 @@ public class Player : MonoBehaviour
     float smoothedBoostFactor;
     float boostSmoothV;
 
+    GameObject positionLine;
 
 
     // Start is called before the first frame update
     void Start()
     {
         gameCamera = FindObjectOfType<GameCamera>();
+        if (drawPositionLine) CreatePositionLine();
     }
 
     // Update is called once per frame
@@ -58,7 +67,8 @@ public class Player : MonoBehaviour
         currentElevation = CalculateElevation(inputVertical);
 
         // Forward Speed
-        smoothedBoostFactor = Mathf.SmoothDamp(smoothedBoostFactor, inputBoost ? boostFactor : 1f, ref boostSmoothV, boostAcceleration);
+        float adjustedBoost = inputBoost && inputForward > 0 ? boostFactor : 1f;
+        smoothedBoostFactor = Mathf.SmoothDamp(smoothedBoostFactor, adjustedBoost, ref boostSmoothV, boostAcceleration);
         smoothedForward = Mathf.SmoothDamp(smoothedForward, inputForward * maxSpeed * smoothedBoostFactor, ref forwardSmoothV, forwardAcceleration);
         UpdatePosition(smoothedForward);
 
@@ -69,6 +79,8 @@ public class Player : MonoBehaviour
         UpdateRotation(turnAmount);
 
         UpdateInnerRotation(smoothedForward, smoothedTurnSpeed);
+
+        if (drawPositionLine) DrawPositionLine(transform.position, smoothedForward);
     }
 
     private float CalculateElevation(float vVertical)
@@ -102,6 +114,35 @@ public class Player : MonoBehaviour
         float pitch = Util.Mapf(vForward, -maxSpeed, maxSpeed, -maxPitch, maxPitch);
         float roll = Util.Mapf(vTurn * vForward, -turnSpeed * maxSpeed, turnSpeed * maxSpeed, -maxRoll, maxRoll);
         playerTransform.localRotation = Quaternion.Euler(pitch, 0, -roll);
+    }
+
+    void CreatePositionLine()
+    {
+        positionLine = new GameObject();
+        positionLine.AddComponent<LineRenderer>();
+        LineRenderer lr = positionLine.GetComponent<LineRenderer>();
+        lr.material = positionLineMaterial;
+        lr.startColor = Color.black;
+        lr.endColor = Color.black;
+        lr.startWidth = 0.1f;
+        lr.endWidth = 0.1f;
+        lr.SetPosition(0, Vector3.zero);
+    }
+
+    void DrawPositionLine(Vector3 position, float speed)
+    {
+        if (position == null) return;
+        LineRenderer lr = positionLine.GetComponent<LineRenderer>();
+        Vector3 target = Mathf.Abs(speed) < 0.1 ? position : Vector3.zero;
+        lr.SetPosition(1, Vector3.Lerp(lr.GetPosition(1), target, Time.deltaTime * positionLineSpeed));
+    }
+
+    private void OnDestroy()
+    {
+        if (positionLine != null)
+        {
+            GameObject.Destroy(positionLine);
+        }
     }
 
 
