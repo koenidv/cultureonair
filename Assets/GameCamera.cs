@@ -7,8 +7,8 @@ public class GameCamera : MonoBehaviour
 {
     [Header("Target")]
     public Player player;
-    public Vector3 cameraOffset;
-    public Vector3 targetOffset;
+    public ViewOptions forwardView;
+    public ViewOptions topdownView;
 
     [Header("Camera")]
     public Camera cam;
@@ -17,6 +17,8 @@ public class GameCamera : MonoBehaviour
     public float forwardFOV;
     public float backwardFOV;
     public float fovAcceleration;
+
+    private ViewTypes currentView;
 
     private float playerMaxSpeed;
     private float playerCurrentSpeed;
@@ -39,15 +41,17 @@ public class GameCamera : MonoBehaviour
 
     void UpdateView()
     {
+        ViewOptions options = GetCurrentViewOptions();
+
         // Calculate new position
-        Vector3 newPos = playerTransform.position + playerTransform.forward * cameraOffset.z + playerTransform.position.normalized * cameraOffset.y;
+        Vector3 newPos = playerTransform.position + playerTransform.forward * options.cameraOffset.z + playerTransform.position.normalized * options.cameraOffset.y;
         newPos = Vector3.SmoothDamp(transform.position, newPos, ref positionV, acceleration);
 
         //Calculate look playerTransform
         Vector3 lookTarget = playerTransform.position;
-        lookTarget += playerTransform.right * targetOffset.x;
-        lookTarget += playerTransform.up * targetOffset.y;
-        lookTarget += playerTransform.forward * targetOffset.z;
+        lookTarget += playerTransform.right * options.targetOffset.x;
+        lookTarget += playerTransform.up * options.targetOffset.y;
+        lookTarget += playerTransform.forward * options.targetOffset.z;
 
         transform.position = newPos;
         transform.LookAt(lookTarget, playerTransform.position.normalized);
@@ -56,10 +60,12 @@ public class GameCamera : MonoBehaviour
     void UpdateFOV()
     {
         float fov = defaultFOV;
-        if (playerCurrentSpeed > 0) {
+        if (playerCurrentSpeed > 0)
+        {
             cam.fieldOfView = MapFOV(playerCurrentSpeed, forwardFOV);
         }
-        else if (playerCurrentSpeed < 0) {
+        else if (playerCurrentSpeed < 0)
+        {
             cam.fieldOfView = MapFOV(playerCurrentSpeed, backwardFOV);
         }
 
@@ -67,11 +73,45 @@ public class GameCamera : MonoBehaviour
         cam.fieldOfView = fov;
     }
 
+    ViewOptions GetCurrentViewOptions()
+    {
+        if (currentView == ViewTypes.forward) return forwardView;
+        if (currentView == ViewTypes.topdown) return topdownView;
+        return forwardView;
+    }
+
     private float MapFOV(float speed, float limit)
     {
         return Util.Mapf(Mathf.Abs(speed), 0, playerMaxSpeed, defaultFOV, limit);
     }
 
+    public void GotoNextViewType()
+    {
+        if (currentView == ViewTypes.forward)
+            currentView = ViewTypes.topdown;
+        else currentView = ViewTypes.forward;
+    }
+
     public void SetPlayerMaxSpeed(float value) { playerMaxSpeed = value; }
     public void SetPlayerCurrentSpeed(float value) { playerCurrentSpeed = value; }
+
+}
+
+[System.Serializable]
+public struct ViewOptions
+{
+    public Vector3 cameraOffset;
+    public Vector3 targetOffset;
+
+    public ViewOptions(Vector3 cameraOffset, Vector3 targetOffset)
+    {
+        this.cameraOffset = cameraOffset;
+        this.targetOffset = targetOffset;
+    }
+}
+
+enum ViewTypes
+{
+    forward,
+    topdown
 }

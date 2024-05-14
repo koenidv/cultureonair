@@ -62,12 +62,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float adjustedBoost = inputBoost && inputForward > 0 ? boostFactor : 1f;
 
         // Elevation
-        currentElevation = CalculateElevation(inputVertical);
+        currentElevation = CalculateElevation(inputVertical, adjustedBoost);
 
         // Forward Speed
-        float adjustedBoost = inputBoost && inputForward > 0 ? boostFactor : 1f;
         smoothedBoostFactor = Mathf.SmoothDamp(smoothedBoostFactor, adjustedBoost, ref boostSmoothV, boostAcceleration);
         smoothedForward = Mathf.SmoothDamp(smoothedForward, inputForward * maxSpeed * smoothedBoostFactor, ref forwardSmoothV, forwardAcceleration);
         UpdatePosition(smoothedForward);
@@ -83,9 +83,9 @@ public class Player : MonoBehaviour
         if (drawPositionLine) DrawPositionLine(transform.position, smoothedForward);
     }
 
-    private float CalculateElevation(float vVertical)
+    private float CalculateElevation(float vVertical, float adjustedBoost)
     {
-        float target = currentElevation + vVertical * maxVerticalSpeed;
+        float target = currentElevation + vVertical * maxVerticalSpeed * adjustedBoost;
         target = Mathf.Clamp(target, minElevation, maxElevation);
         float elevation = Mathf.SmoothDamp(currentElevation, target, ref verticalSmoothV, verticalAcceleration);
         return elevation;

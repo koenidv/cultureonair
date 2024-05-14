@@ -173,7 +173,7 @@ MonoBehaviour:
   turnSpeed: 50
   boostFactor: 2
   minElevation: 120
-  maxElevation: 300
+  maxElevation: 1000
   currentElevation: 180
   forwardAcceleration: 0.4
   turnAcceleration: 0.4
@@ -321,7 +321,9 @@ MonoBehaviour:
 
     Elevation - Shift/Ctrl
 
-    Boost - Q'
+    Boost - Q
+
+    View - V'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 23439cd099d570f4ebe807e2eae2e150, type: 2}
   m_sharedMaterial: {fileID: 2922130515310204291, guid: 23439cd099d570f4ebe807e2eae2e150, type: 2}
@@ -348,7 +350,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.5
+  m_fontSize: 22.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1327,7 +1329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookupShader: {fileID: 7200000, guid: ee0596be14d1b0344899dafeab98c19d, type: 3}
-  countryIndices: {fileID: 2800000, guid: f26b17f649a7be14daba6df752f7a6b4, type: 3}
+  countryIndices: {fileID: 2800000, guid: be617691f9f1f794096515f51948922c, type: 3}
   countriesLoader: {fileID: 1637403989}
 --- !u!4 &1637403988
 Transform:
@@ -1474,22 +1476,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1152531278}
     m_Modifications:
-    - target: {fileID: -4990434440746808254, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1104015795908768202, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2876469670059727035, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083501151425157549, guid: 4e2df9391b2b70b4a9051a1049916051, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f595f7a5992acc746a7cecc1fc8eda8c, type: 3}
       propertyPath: m_LocalScale.x
       value: 9750
@@ -1549,6 +1535,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f595f7a5992acc746a7cecc1fc8eda8c, type: 3}
       propertyPath: m_Name
       value: planet3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4990434440746808254, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1104015795908768202, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876469670059727035, guid: 9bb6e36cf252a9945912432b41824c2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e2df9391b2b70b4a9051a1049916051, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1920,8 +1922,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 34940696}
-  cameraOffset: {x: 0, y: 32, z: -12}
-  targetOffset: {x: 0, y: 4, z: 0}
+  forwardView:
+    cameraOffset: {x: 0, y: 32, z: -12}
+    targetOffset: {x: 0, y: 4, z: 0}
+  topdownView:
+    cameraOffset: {x: 0, y: 96, z: -1}
+    targetOffset: {x: 0, y: 4, z: 0}
   cam: {fileID: 963194227}
   acceleration: 0.25
   defaultFOV: 40

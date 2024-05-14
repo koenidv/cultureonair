@@ -12,13 +12,15 @@ public class InputHandler : MonoBehaviour {
     InputActions inputs;
     InputAction moveAction;
     InputAction boostAction;
+    InputAction switchViewAction;
 
     private void OnEnable()
     {
         inputs = new InputActions();
         inputs.Enable();
         moveAction = inputs.FindAction("Move");
-        boostAction = inputs.FindAction("Boost");
+        boostAction = inputs.FindAction("Boost")    ;
+        inputs.FindAction("View").performed += _ => cam.GotoNextViewType();
 
         cam.SetPlayerMaxSpeed(player.maxSpeed);
         player.SetWorldRadius(planetSettings.radius);
