@@ -1,3 +1,5 @@
+using System.Data;
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class CountryLookup : MonoBehaviour
@@ -5,14 +7,30 @@ public class CountryLookup : MonoBehaviour
     public ComputeShader lookupShader;
     public Texture2D countryIndices;
     public CountriesLoader countriesLoader;
+    public SamplingStrategies samplingStrategy;
 
+    private bool useGpuSampling;
     ComputeBuffer resultBuffer;
     int lastIndex;
 
     private void Start()
     {
-        SetResultBuffer();
-        lookupShader.SetTexture(0, "_CountryIndicesTex", countryIndices);
+        SetSamplingStrategy(samplingStrategy);
+        if (useGpuSampling)
+        {
+            SetResultBuffer();
+            lookupShader.SetTexture(0, "_CountryIndicesTex", countryIndices);
+        }
+    }
+
+    private void SetSamplingStrategy(SamplingStrategies sampleStrategy)
+    {
+        if (sampleStrategy != SamplingStrategies.Auto)
+        {
+            useGpuSampling = sampleStrategy == SamplingStrategies.GPU;
+            return;
+        }
+        useGpuSampling = SystemInfo.supportsComputeShaders;
     }
 
     private void SetResultBuffer()
@@ -31,6 +49,21 @@ public class CountryLookup : MonoBehaviour
 
     public int LookupIndex(Coordinate coordinate)
     {
+        if (useGpuSampling) return LookupIndexGPU(coordinate);
+        else return LookupIndexCPU(coordinate);
+    }
+
+    private int LookupIndexCPU(Coordinate coordinate)
+    {
+        print("using cpu lookup");
+        Vector2 uv = coordinate.ToUV();
+        Color sample = countryIndices.GetPixel(Mathf.RoundToInt(uv.x * countryIndices.width), Mathf.RoundToInt(uv.y * countryIndices.height));
+        return Mathf.RoundToInt(sample.r * 255);
+    }
+
+    private int LookupIndexGPU(Coordinate coordinate)
+    {
+        print("using graphic lookup");
         SetResultBuffer(); // result buffer isn't restored after hot reload
         lookupShader.SetVector("uv", coordinate.ToUV());
         lookupShader.Dispatch(0, 1, 1, 1);
@@ -49,4 +82,11 @@ public class CountryLookup : MonoBehaviour
             resultBuffer = null;
         }
     }
+}
+
+public enum SamplingStrategies
+{
+    Auto,
+    GPU,
+    CPU
 }
