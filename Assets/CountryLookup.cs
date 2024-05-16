@@ -1,5 +1,3 @@
-using System.Data;
-using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class CountryLookup : MonoBehaviour
@@ -31,6 +29,7 @@ public class CountryLookup : MonoBehaviour
             return;
         }
         useGpuSampling = SystemInfo.supportsComputeShaders;
+        print("Auto-detect compute shader compatibility: " + (useGpuSampling ? "Using GPU" : "Using CPU"));
     }
 
     private void SetResultBuffer()
@@ -40,11 +39,11 @@ public class CountryLookup : MonoBehaviour
         lookupShader.SetBuffer(0, "_Result", resultBuffer);
     }
 
-    public string LookupCountryName(Coordinate coordinate)
+    public CountryInfo? LookupCountry(Coordinate coordinate)
     {
         int index = LookupIndex(coordinate) - 1;
         if (index < 0) return null;
-        return countriesLoader.GetCountries()[index].c_name;
+        return countriesLoader.GetCountries()[index];
     }
 
     public int LookupIndex(Coordinate coordinate)
@@ -55,7 +54,6 @@ public class CountryLookup : MonoBehaviour
 
     private int LookupIndexCPU(Coordinate coordinate)
     {
-        print("using cpu lookup");
         Vector2 uv = coordinate.ToUV();
         Color sample = countryIndices.GetPixel(Mathf.RoundToInt(uv.x * countryIndices.width), Mathf.RoundToInt(uv.y * countryIndices.height));
         return Mathf.RoundToInt(sample.r * 255);
@@ -63,7 +61,6 @@ public class CountryLookup : MonoBehaviour
 
     private int LookupIndexGPU(Coordinate coordinate)
     {
-        print("using graphic lookup");
         SetResultBuffer(); // result buffer isn't restored after hot reload
         lookupShader.SetVector("uv", coordinate.ToUV());
         lookupShader.Dispatch(0, 1, 1, 1);

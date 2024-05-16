@@ -10,7 +10,6 @@ public class UIController : MonoBehaviour
     public PlanetSettings planetSettings;
 
     [Header("UI Components")]
-    public Compass compass;
     public TextMeshProUGUI locationText;
 
     public CountryLookup countryLookup;
@@ -25,12 +24,9 @@ public class UIController : MonoBehaviour
 
     void Update()
     {
-        float heading = coordinateCalculator.CalculateHeading(player.transform.position, player.transform.forward);
-        compass.UpdateHeading(heading);
-
         Coordinate realCoordinates = coordinateCalculator.CalculateRealCoordinates(player.transform.position);
 
-        string countryName = countryLookup.LookupCountryName(realCoordinates);
+        string countryName = countryLookup.LookupCountry(realCoordinates)?.c_name;
         if (countryName != null)
         {
             locationText.text = countryName;

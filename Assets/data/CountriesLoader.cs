@@ -26,4 +26,19 @@ public struct CountryInfo
     public string c_name;
     public string p_id;
     public string p_name;
+
+    public override bool Equals(object obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        return c_id == ((CountryInfo) obj).c_id;
+    }
+
+    public override int GetHashCode()
+    {
+        return c_id.GetHashCode();
+    }
 }

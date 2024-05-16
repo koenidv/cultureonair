@@ -7,17 +7,19 @@ using UnityEngine.UI;
 public class Compass : MonoBehaviour
 {
     public RawImage image;
+    public Transform target;
+    public PlanetSettings planetSettings;
 
-    private float heading;
+    private CoordinateCalculator coordinateCalculator;
 
+    private void Start()
+    {
+        coordinateCalculator = new CoordinateCalculator(planetSettings.radius);
+    }
     void LateUpdate()
     {
+        float heading = coordinateCalculator.CalculateHeading(target.position, target.forward);
         image.uvRect = new Rect(heading / 360, 0f, 1f, 1f);
-    }
-
-    public void UpdateHeading(float angle)
-    {
-        this.heading = angle;
     }
 
 }
