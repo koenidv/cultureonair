@@ -18,6 +18,11 @@ public class GameCamera : MonoBehaviour
     public float backwardFOV;
     public float fovAcceleration;
 
+    [Header("Touch Rotate")]
+    public float modifierSpeed;
+    public float modifierReturnSpeed;
+    public float modifierSpringMaxValue;
+
     private ViewTypes currentView;
 
     private float playerMaxSpeed;
@@ -27,7 +32,13 @@ public class GameCamera : MonoBehaviour
     private Vector3 positionV;
     private float fovV;
 
-    // Start is called before the first frame update
+    private LinearSpring modifierX;
+    private bool modifierInChange;
+
+    private void OnEnable()
+    {
+        modifierX = new LinearSpring(modifierSpringMaxValue);
+    }
     void Start()
     {
         playerTransform = player.transform;
@@ -37,6 +48,21 @@ public class GameCamera : MonoBehaviour
     {
         UpdateView();
         UpdateFOV();
+        modifierX.Decrease();
+        if (playerCurrentSpeed > 10 || currentView == ViewTypes.topdown) modifierInChange = false;
+        if (!modifierInChange) modifierX.Set(0);
+    }
+
+    public void UpdateModifierInput(Vector2 delta)
+    {
+        if (playerCurrentSpeed > 10) return;
+        if (currentView == ViewTypes.topdown) return;
+        modifierX.Add(delta.x * modifierSpeed);
+    }
+
+    public void UpdateModifierChanging(bool changing)
+    {
+        modifierInChange = changing;
     }
 
     void UpdateView()
@@ -44,7 +70,8 @@ public class GameCamera : MonoBehaviour
         ViewOptions options = GetCurrentViewOptions();
 
         // Calculate new position
-        Vector3 newPos = playerTransform.position + playerTransform.forward * options.cameraOffset.z + playerTransform.position.normalized * options.cameraOffset.y;
+        Vector3 newPos = playerTransform.position + playerTransform.position.normalized * options.cameraOffset.y + playerTransform.forward * options.cameraOffset.z;
+        newPos = playerTransform.position + (Quaternion.Euler(0f, modifierX.Value, 0f) * (newPos - playerTransform.position));
         newPos = Vector3.SmoothDamp(transform.position, newPos, ref positionV, acceleration);
 
         //Calculate look playerTransform
@@ -82,7 +109,7 @@ public class GameCamera : MonoBehaviour
 
     private float MapFOV(float speed, float limit)
     {
-        return Util.Mapf(Mathf.Abs(speed), 0, playerMaxSpeed, defaultFOV, limit);
+        return Util.MapfClamped(Mathf.Abs(speed), 0, playerMaxSpeed, defaultFOV, limit);
     }
 
     public void GotoNextViewType()

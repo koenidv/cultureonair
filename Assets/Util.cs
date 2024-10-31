@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Util
 {
-    public static float Mapf(float value, float minIn, float maxIn, float minOut, float maxOut)
+    public static float MapfClamped(float value, float minIn, float maxIn, float minOut, float maxOut)
     {
+        value = Mathf.Clamp(value, minIn, maxIn);
         return (value - minIn) / (maxIn - minIn) * (maxOut - minOut) + minOut;
     }
 }

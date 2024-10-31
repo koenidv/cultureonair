@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "CameraModifier",
+                    "type": "Value",
+                    "id": "9aaa5566-b84f-4b5c-8906-e8f0684ca9fd",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -191,7 +200,7 @@
                 {
                     "name": "",
                     "id": "39d1da36-8225-4f0b-9d4d-a104f25bd088",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -207,6 +216,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "View",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0322b008-4c15-4b77-bb01-b09c6534a912",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraModifier",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

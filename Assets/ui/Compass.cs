@@ -10,12 +10,13 @@ public class Compass : MonoBehaviour
     public Transform target;
     public PlanetSettings planetSettings;
 
-    private CoordinateCalculator coordinateCalculator;
+    [SerializeField] private CoordinateCalculator coordinateCalculator;
 
     private void Start()
     {
         coordinateCalculator = new CoordinateCalculator(planetSettings.radius);
     }
+
     void LateUpdate()
     {
         float heading = coordinateCalculator.CalculateHeading(target.position, target.forward);

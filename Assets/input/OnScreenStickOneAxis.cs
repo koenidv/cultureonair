@@ -1,14 +1,7 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 using UnityEngine.InputSystem.Layouts;
-using UnityEngine.InputSystem.Utilities;
-using UnityEngine.UI;
 
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.OnScreen;
 

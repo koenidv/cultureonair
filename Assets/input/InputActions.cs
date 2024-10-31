@@ -53,6 +53,15 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CameraModifier"",
+                    ""type"": ""Value"",
+                    ""id"": ""9aaa5566-b84f-4b5c-8906-e8f0684ca9fd"",
+                    ""expectedControlType"": ""Touch"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -213,7 +222,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""39d1da36-8225-4f0b-9d4d-a104f25bd088"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -231,6 +240,17 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""action"": ""View"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0322b008-4c15-4b77-bb01-b09c6534a912"",
+                    ""path"": ""<Touchscreen>/primaryTouch"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CameraModifier"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -242,6 +262,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         m_Default_Move = m_Default.FindAction("Move", throwIfNotFound: true);
         m_Default_Boost = m_Default.FindAction("Boost", throwIfNotFound: true);
         m_Default_View = m_Default.FindAction("View", throwIfNotFound: true);
+        m_Default_CameraModifier = m_Default.FindAction("CameraModifier", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -306,6 +327,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Default_Move;
     private readonly InputAction m_Default_Boost;
     private readonly InputAction m_Default_View;
+    private readonly InputAction m_Default_CameraModifier;
     public struct DefaultActions
     {
         private @InputActions m_Wrapper;
@@ -313,6 +335,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Default_Move;
         public InputAction @Boost => m_Wrapper.m_Default_Boost;
         public InputAction @View => m_Wrapper.m_Default_View;
+        public InputAction @CameraModifier => m_Wrapper.m_Default_CameraModifier;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -331,6 +354,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @View.started += instance.OnView;
             @View.performed += instance.OnView;
             @View.canceled += instance.OnView;
+            @CameraModifier.started += instance.OnCameraModifier;
+            @CameraModifier.performed += instance.OnCameraModifier;
+            @CameraModifier.canceled += instance.OnCameraModifier;
         }
 
         private void UnregisterCallbacks(IDefaultActions instance)
@@ -344,6 +370,9 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
             @View.started -= instance.OnView;
             @View.performed -= instance.OnView;
             @View.canceled -= instance.OnView;
+            @CameraModifier.started -= instance.OnCameraModifier;
+            @CameraModifier.performed -= instance.OnCameraModifier;
+            @CameraModifier.canceled -= instance.OnCameraModifier;
         }
 
         public void RemoveCallbacks(IDefaultActions instance)
@@ -366,5 +395,6 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnBoost(InputAction.CallbackContext context);
         void OnView(InputAction.CallbackContext context);
+        void OnCameraModifier(InputAction.CallbackContext context);
     }
 }

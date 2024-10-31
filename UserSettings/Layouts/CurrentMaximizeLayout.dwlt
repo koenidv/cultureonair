@@ -1,0 +1,4740 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1675.6364
+    height: 924.8363
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 2318
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.436356
+    width: 310.56363
+    height: 574.19995
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d0660000
+      m_LastClickedID: 26320
+      m_ExpandedIDs: 16fbffffd0660000fc6600006a670000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1270.6909
+    height: 924.8363
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 2319
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1270.6909
+    height: 595.19995
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 2320
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 311.56363
+    height: 595.19995
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 311.56363
+    y: 0
+    width: 959.1273
+    height: 595.19995
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 8}
+  m_Panes:
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 311.56363
+    y: 72.436356
+    width: 957.1273
+    height: 574.19995
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -169.30908, y: -25.309082}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -109.96362, y: 25.309092}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: 9.599976}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 515.2872, y: 238.23227, z: 0.73765254}
+    speed: 2
+    m_Value: {x: 515.2872, y: 238.23227, z: 0.73765254}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 0
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 278.39294
+    speed: 2
+    m_Value: 278.39294
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 311.56363
+    y: 72.436356
+    width: 957.1273
+    height: 574.19995
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\koeni\Dingsen und Dongsen\Library\PlayModeViewStates\a3da122d7ae8f7e4e971e2b57f70abb8
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 957.1273, y: 553.19995}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -417.65552
+    m_HBaseRangeMax: 417.65552
+    m_VBaseRangeMin: -241.39633
+    m_VBaseRangeMax: 241.39633
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 957.1273
+      height: 553.19995
+    m_Scale: {x: 1.1458334, y: 1.1458334}
+    m_Translation: {x: 478.56366, y: 276.59998}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -417.65555
+      y: -241.39633
+      width: 835.3111
+      height: 482.79266
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1096.7084, y: 657.93744}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 595.19995
+    width: 1270.6909
+    height: 329.63635
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 10}
+  m_Panes:
+  - {fileID: 10}
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 667.6363
+    width: 1269.6909
+    height: 308.63635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/TextMesh Pro/Resources/Fonts & Materials
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/TextMesh Pro/Resources/Fonts & Materials
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\koeni\Dingsen und Dongsen
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 15.363647}
+    m_SelectedIDs: aa680000
+    m_LastClickedID: 26794
+    m_ExpandedIDs: 0000000082680000a2680000ac68000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000008268000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: d0660000
+    m_LastClickedInstanceID: 26320
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000bc890000e468000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 9}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 667.6363
+    width: 1269.6909
+    height: 308.63635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 600, y: 350}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Unity Version Control
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -253.0909
+    y: -513.1636
+    width: 1705.1818
+    height: 442.1635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  mForceToOpen: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1270.6909
+    y: 0
+    width: 404.94543
+    height: 924.8363
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1270.6908
+    y: 72.436356
+    width: 403.94543
+    height: 903.8363
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1270.6908
+    y: 72.436356
+    width: 403.94543
+    height: 903.8363
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2024-05-11T22:40:54.308+01:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: main
+        label: main
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/main
+        label: main
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2024-05-12T18:08:23.145+01:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2024-05-12T18:08:22.423+01:00
+      cacheType: 1
+    currentBranch:
+      name: main
+      tracking: origin/main
+    currentRemote:
+      name: origin
+      url: git@github.com:koenidv/cultureonair.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: main
+      tracking: origin/main
+    remoteBranches:
+    - name: origin/main
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
+    commitBody: 
+    commitMessage: 
+    currentBranch: main
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - eeb1e0c60917d9d4396d9caea2d4d74f
+        - 00000000000000004000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\CountryLookup.cs
+          label: CountryLookup.cs
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\CountryLookup.cs
+            fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+            projectPath: Assets\CountryLookup.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+      folders:
+        keys:
+        - Assets
+        - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vsconfig
+        label: .vsconfig
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vsconfig
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\CountryLookup.cs
+        label: CountryLookup.cs
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\CountryLookup.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+          projectPath: Assets\CountryLookup.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Search.index
+        label: Search.index
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Search.index
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Search.settings
+        label: Search.settings
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Search.settings
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\CountryLookup.cs
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+      projectPath: Assets\CountryLookup.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 8 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2024-05-15T19:59:21.785+01:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2024-05-15T20:04:15.240+01:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 2024-05-15T20:04:18.052+01:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 6280ff4ce85c01709ae2d27c398e01e786a58810
+      mergeA: 
+      mergeB: 
+      authorName: "Florian K\xF6nig"
+      authorEmail: koenidv@gmail.com
+      commitEmail: koenidv@gmail.com
+      commitName: "Florian K\xF6nig"
+      summary: 'feat: load counties json'
+      description: 
+      timeString: 2024-05-12T18:04:48.000+01:00
+      commitTimeString: 2024-05-12T18:04:48.000+01:00
+      changes:
+      - path: Assets\CountryIndex.compute
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+        projectPath: Assets\CountryIndex.compute
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\CountryLookup.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+        projectPath: Assets\CountryLookup.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\GameScene.unity
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+        projectPath: Assets\GameScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson.meta
+        projectPath: Assets\UnityLitJson.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\COPYING
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\COPYING
+        projectPath: Assets\UnityLitJson\COPYING
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\COPYING.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\COPYING.meta
+        projectPath: Assets\UnityLitJson\COPYING.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Extensions.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Extensions.cs
+        projectPath: Assets\UnityLitJson\Extensions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Extensions.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Extensions.cs.meta
+        projectPath: Assets\UnityLitJson\Extensions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\IJsonWrapper.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\IJsonWrapper.cs
+        projectPath: Assets\UnityLitJson\IJsonWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\IJsonWrapper.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\IJsonWrapper.cs.meta
+        projectPath: Assets\UnityLitJson\IJsonWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonAttribute.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonAttribute.cs
+        projectPath: Assets\UnityLitJson\JsonAttribute.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonAttribute.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonAttribute.cs.meta
+        projectPath: Assets\UnityLitJson\JsonAttribute.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonData.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonData.cs
+        projectPath: Assets\UnityLitJson\JsonData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonData.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonData.cs.meta
+        projectPath: Assets\UnityLitJson\JsonData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonException.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonException.cs
+        projectPath: Assets\UnityLitJson\JsonException.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonException.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonException.cs.meta
+        projectPath: Assets\UnityLitJson\JsonException.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonMapper.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMapper.cs
+        projectPath: Assets\UnityLitJson\JsonMapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonMapper.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMapper.cs.meta
+        projectPath: Assets\UnityLitJson\JsonMapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonMockWrapper.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMockWrapper.cs
+        projectPath: Assets\UnityLitJson\JsonMockWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonMockWrapper.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMockWrapper.cs.meta
+        projectPath: Assets\UnityLitJson\JsonMockWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonReader.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonReader.cs
+        projectPath: Assets\UnityLitJson\JsonReader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonReader.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonReader.cs.meta
+        projectPath: Assets\UnityLitJson\JsonReader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonWriter.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonWriter.cs
+        projectPath: Assets\UnityLitJson\JsonWriter.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\JsonWriter.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonWriter.cs.meta
+        projectPath: Assets\UnityLitJson\JsonWriter.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Lexer.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Lexer.cs
+        projectPath: Assets\UnityLitJson\Lexer.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Lexer.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Lexer.cs.meta
+        projectPath: Assets\UnityLitJson\Lexer.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\ParserToken.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\ParserToken.cs
+        projectPath: Assets\UnityLitJson\ParserToken.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\ParserToken.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\ParserToken.cs.meta
+        projectPath: Assets\UnityLitJson\ParserToken.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Platform.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Platform.cs
+        projectPath: Assets\UnityLitJson\Platform.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Platform.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Platform.cs.meta
+        projectPath: Assets\UnityLitJson\Platform.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Unity.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity.meta
+        projectPath: Assets\UnityLitJson\Unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+        projectPath: Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+        projectPath: Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\data.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data.meta
+        projectPath: Assets\data.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\data\CountriesLoader.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountriesLoader.cs
+        projectPath: Assets\data\CountriesLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\data\CountriesLoader.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountriesLoader.cs.meta
+        projectPath: Assets\data\CountriesLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\data\CountryIndices.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountryIndices.png
+        projectPath: Assets\data\CountryIndices.png
+        originalPath: Assets\CountryIndices.png
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\data\CountryIndices.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountryIndices.png.meta
+        projectPath: Assets\data\CountryIndices.png.meta
+        originalPath: Assets\CountryIndices.png.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\data\countries.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\countries.json
+        projectPath: Assets\data\countries.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\data\countries.json.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\countries.json.meta
+        projectPath: Assets\data\countries.json.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\UIController.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+        projectPath: Assets\ui\UIController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ecd13333827b55f76ac3f654e2f9cae53961c4ce
+      mergeA: 
+      mergeB: 
+      authorName: "Florian K\xF6nig"
+      authorEmail: koenidv@gmail.com
+      commitEmail: koenidv@gmail.com
+      commitName: "Florian K\xF6nig"
+      summary: fix country index map
+      description: 
+      timeString: 2024-05-12T17:12:17.000+01:00
+      commitTimeString: 2024-05-12T17:12:17.000+01:00
+      changes:
+      - path: Assets\Country Index Map.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png
+        projectPath: Assets\Country Index Map.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\CountryIndex.compute
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+        projectPath: Assets\CountryIndex.compute
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\CountryIndices.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndices.png
+        projectPath: Assets\CountryIndices.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CountryIndices.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndices.png.meta
+        projectPath: Assets\CountryIndices.png.meta
+        originalPath: Assets\Country Index Map.png.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\CountryLookup.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+        projectPath: Assets\CountryLookup.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\GameScene.unity
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+        projectPath: Assets\GameScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 3876291199e1fa728633e301a32e91ede9fc81d4
+      mergeA: 
+      mergeB: 
+      authorName: "Florian K\xF6nig"
+      authorEmail: koenidv@gmail.com
+      commitEmail: koenidv@gmail.com
+      commitName: "Florian K\xF6nig"
+      summary: 'feat: find country index'
+      description: 
+      timeString: 2024-05-12T15:05:20.000+01:00
+      commitTimeString: 2024-05-12T15:05:20.000+01:00
+      changes:
+      - path: Assets\CoordinateCalculator.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs
+        projectPath: Assets\CoordinateCalculator.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Country Index Map.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png
+        projectPath: Assets\Country Index Map.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Country Index Map.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png.meta
+        projectPath: Assets\Country Index Map.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CountryIndex.compute
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+        projectPath: Assets\CountryIndex.compute
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CountryIndex.compute.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute.meta
+        projectPath: Assets\CountryIndex.compute.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CountryLookup.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+        projectPath: Assets\CountryLookup.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CountryLookup.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs.meta
+        projectPath: Assets\CountryLookup.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameScene.unity
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+        projectPath: Assets\GameScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\types.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types.meta
+        projectPath: Assets\types.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\types\Coordinate.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types\Coordinate.cs
+        projectPath: Assets\types\Coordinate.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\types\Coordinate.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types\Coordinate.cs.meta
+        projectPath: Assets\types\Coordinate.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\UIController.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+        projectPath: Assets\ui\UIController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: b3609805c85cdd73db24ff0fa8848e39bc2a7553
+      mergeA: 
+      mergeB: 
+      authorName: "Florian K\xF6nig"
+      authorEmail: koenidv@gmail.com
+      commitEmail: koenidv@gmail.com
+      commitName: "Florian K\xF6nig"
+      summary: first game prototype
+      description: 
+      timeString: 2024-05-11T22:43:00.000+01:00
+      commitTimeString: 2024-05-11T22:43:00.000+01:00
+      changes:
+      - path: Assets\CoordinateCalculator.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs
+        projectPath: Assets\CoordinateCalculator.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CoordinateCalculator.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs.meta
+        projectPath: Assets\CoordinateCalculator.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameCamera.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameCamera.cs
+        projectPath: Assets\GameCamera.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameCamera.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameCamera.cs.meta
+        projectPath: Assets\GameCamera.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameScene.unity
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+        projectPath: Assets\GameScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameScene.unity.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity.meta
+        projectPath: Assets\GameScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Images.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images.meta
+        projectPath: Assets\Images.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Images\Compass.CardinalDirections 1.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.CardinalDirections
+          1.png
+        projectPath: Assets\Images\Compass.CardinalDirections 1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Images\Compass.CardinalDirections 1.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.CardinalDirections
+          1.png.meta
+        projectPath: Assets\Images\Compass.CardinalDirections 1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Images\Compass.Needle 1.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.Needle
+          1.png
+        projectPath: Assets\Images\Compass.Needle 1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Images\Compass.Needle 1.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.Needle
+          1.png.meta
+        projectPath: Assets\Images\Compass.Needle 1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\PlanetSettings.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\PlanetSettings.cs
+        projectPath: Assets\PlanetSettings.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\PlanetSettings.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\PlanetSettings.cs.meta
+        projectPath: Assets\PlanetSettings.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Player.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Player.cs
+        projectPath: Assets\Player.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Player.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Player.cs.meta
+        projectPath: Assets\Player.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro.meta
+        projectPath: Assets\TextMesh Pro.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation.meta
+        projectPath: Assets\TextMesh Pro\Documentation.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation\TextMesh
+          Pro User Guide 2016.pdf
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation\TextMesh
+          Pro User Guide 2016.pdf.meta
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts.meta
+        projectPath: Assets\TextMesh Pro\Fonts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans
+          - OFL.txt
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans
+          - OFL.txt.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources.meta
+        projectPath: Assets\TextMesh Pro\Resources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+          & Materials.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+          SDF.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+          & Materials\Jost-VariableFont_wght SDF.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+          SDF.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+          SDF.asset.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+          & Materials\Jost-VariableFont_wght SDF.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+          SDF.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+          & Materials\Jost-VariableFont_wght.ttf
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+          & Materials\Jost-VariableFont_wght.ttf.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+          Following Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+          Following Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+          Leading Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+          Leading Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+          Assets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+          Assets\EmojiOne.asset
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+          Assets\EmojiOne.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+          Sheets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+          Sheets\Default Style Sheet.asset
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+          Sheets\Default Style Sheet.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\TMP
+          Settings.asset
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\TMP
+          Settings.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders.meta
+        projectPath: Assets\TextMesh Pro\Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+          Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+          Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+          SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+          SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          Masking.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          Masking.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+          SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites.meta
+        projectPath: Assets\TextMesh Pro\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne
+          Attribution.txt
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne
+          Attribution.txt.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.json
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.png
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Util.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Util.cs
+        projectPath: Assets\Util.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Util.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Util.cs.meta
+        projectPath: Assets\Util.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input.meta
+        projectPath: Assets\input.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputActions.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.cs
+        projectPath: Assets\input\InputActions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputActions.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.cs.meta
+        projectPath: Assets\input\InputActions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputActions.inputactions
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.inputactions
+        projectPath: Assets\input\InputActions.inputactions
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputActions.inputactions.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.inputactions.meta
+        projectPath: Assets\input\InputActions.inputactions.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputHandler.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputHandler.cs
+        projectPath: Assets\input\InputHandler.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputHandler.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputHandler.cs.meta
+        projectPath: Assets\input\InputHandler.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputSystem.inputsettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputSystem.inputsettings.asset
+        projectPath: Assets\input\InputSystem.inputsettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\input\InputSystem.inputsettings.asset.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputSystem.inputsettings.asset.meta
+        projectPath: Assets\input\InputSystem.inputsettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models.meta
+        projectPath: Assets\models.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\HelicopterLight_v001.controller
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\HelicopterLight_v001.controller
+        projectPath: Assets\models\HelicopterLight_v001.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\HelicopterLight_v001.controller.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\HelicopterLight_v001.controller.meta
+        projectPath: Assets\models\HelicopterLight_v001.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\Player_Model.FBX
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Player_Model.FBX
+        projectPath: Assets\models\Player_Model.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\Player_Model.FBX.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Player_Model.FBX.meta
+        projectPath: Assets\models\Player_Model.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\Water_Baked.png
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Water_Baked.png
+        projectPath: Assets\models\Water_Baked.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\Water_Baked.png.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Water_Baked.png.meta
+        projectPath: Assets\models\Water_Baked.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\planet.fbx
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\planet.fbx
+        projectPath: Assets\models\planet.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\models\planet.fbx.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\planet.fbx.meta
+        projectPath: Assets\models\planet.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old.meta
+        projectPath: Assets\old.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\DragOrbit.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\DragOrbit.cs
+        projectPath: Assets\old\DragOrbit.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\DragOrbit.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\DragOrbit.cs.meta
+        projectPath: Assets\old\DragOrbit.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\MoveRotatePlanet.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveRotatePlanet.cs
+        projectPath: Assets\old\MoveRotatePlanet.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\MoveRotatePlanet.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveRotatePlanet.cs.meta
+        projectPath: Assets\old\MoveRotatePlanet.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\MoveTiltHeli.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveTiltHeli.cs
+        projectPath: Assets\old\MoveTiltHeli.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\MoveTiltHeli.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveTiltHeli.cs.meta
+        projectPath: Assets\old\MoveTiltHeli.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\camera.fbx
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\camera.fbx
+        projectPath: Assets\old\camera.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\old\camera.fbx.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\camera.fbx.meta
+        projectPath: Assets\old\camera.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui.meta
+        projectPath: Assets\ui.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\Compass.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\Compass.cs
+        projectPath: Assets\ui\Compass.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\Compass.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\Compass.cs.meta
+        projectPath: Assets\ui\Compass.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\UIController.cs
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+        projectPath: Assets\ui\UIController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\ui\UIController.cs.meta
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs.meta
+        projectPath: Assets\ui\UIController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.polybrush\Settings.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.polybrush\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.polybrush\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.probuilder\Settings.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.probuilder\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.probuilder\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 42a04ef37b588e9bf78303776dfc433e875b9957
+      mergeA: 
+      mergeB: 
+      authorName: "Florian K\xF6nig"
+      authorEmail: koenidv@gmail.com
+      commitEmail: koenidv@gmail.com
+      commitName: "Florian K\xF6nig"
+      summary: Initial commit
+      description: 
+      timeString: 2024-05-11T22:42:03.000+01:00
+      commitTimeString: 2024-05-11T22:42:03.000+01:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2024-05-12T18:08:23.644+01:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2024-05-12T18:08:27.404+01:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 6280ff4ce85c01709ae2d27c398e01e786a58810
+        mergeA: 
+        mergeB: 
+        authorName: "Florian K\xF6nig"
+        authorEmail: koenidv@gmail.com
+        commitEmail: koenidv@gmail.com
+        commitName: "Florian K\xF6nig"
+        summary: 'feat: load counties json'
+        description: 
+        timeString: 2024-05-12T18:04:48.000+01:00
+        commitTimeString: 2024-05-12T18:04:48.000+01:00
+        changes:
+        - path: Assets\CountryIndex.compute
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+          projectPath: Assets\CountryIndex.compute
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\CountryLookup.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+          projectPath: Assets\CountryLookup.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\GameScene.unity
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+          projectPath: Assets\GameScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson.meta
+          projectPath: Assets\UnityLitJson.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\COPYING
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\COPYING
+          projectPath: Assets\UnityLitJson\COPYING
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\COPYING.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\COPYING.meta
+          projectPath: Assets\UnityLitJson\COPYING.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Extensions.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Extensions.cs
+          projectPath: Assets\UnityLitJson\Extensions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Extensions.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Extensions.cs.meta
+          projectPath: Assets\UnityLitJson\Extensions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\IJsonWrapper.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\IJsonWrapper.cs
+          projectPath: Assets\UnityLitJson\IJsonWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\IJsonWrapper.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\IJsonWrapper.cs.meta
+          projectPath: Assets\UnityLitJson\IJsonWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonAttribute.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonAttribute.cs
+          projectPath: Assets\UnityLitJson\JsonAttribute.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonAttribute.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonAttribute.cs.meta
+          projectPath: Assets\UnityLitJson\JsonAttribute.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonData.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonData.cs
+          projectPath: Assets\UnityLitJson\JsonData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonData.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonData.cs.meta
+          projectPath: Assets\UnityLitJson\JsonData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonException.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonException.cs
+          projectPath: Assets\UnityLitJson\JsonException.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonException.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonException.cs.meta
+          projectPath: Assets\UnityLitJson\JsonException.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonMapper.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMapper.cs
+          projectPath: Assets\UnityLitJson\JsonMapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonMapper.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMapper.cs.meta
+          projectPath: Assets\UnityLitJson\JsonMapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonMockWrapper.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMockWrapper.cs
+          projectPath: Assets\UnityLitJson\JsonMockWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonMockWrapper.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonMockWrapper.cs.meta
+          projectPath: Assets\UnityLitJson\JsonMockWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonReader.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonReader.cs
+          projectPath: Assets\UnityLitJson\JsonReader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonReader.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonReader.cs.meta
+          projectPath: Assets\UnityLitJson\JsonReader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonWriter.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonWriter.cs
+          projectPath: Assets\UnityLitJson\JsonWriter.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\JsonWriter.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\JsonWriter.cs.meta
+          projectPath: Assets\UnityLitJson\JsonWriter.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Lexer.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Lexer.cs
+          projectPath: Assets\UnityLitJson\Lexer.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Lexer.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Lexer.cs.meta
+          projectPath: Assets\UnityLitJson\Lexer.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\ParserToken.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\ParserToken.cs
+          projectPath: Assets\UnityLitJson\ParserToken.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\ParserToken.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\ParserToken.cs.meta
+          projectPath: Assets\UnityLitJson\ParserToken.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Platform.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Platform.cs
+          projectPath: Assets\UnityLitJson\Platform.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Platform.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Platform.cs.meta
+          projectPath: Assets\UnityLitJson\Platform.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Unity.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity.meta
+          projectPath: Assets\UnityLitJson\Unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+          projectPath: Assets\UnityLitJson\Unity\UnityTypeBindings.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+          projectPath: Assets\UnityLitJson\Unity\UnityTypeBindings.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\data.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data.meta
+          projectPath: Assets\data.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\data\CountriesLoader.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountriesLoader.cs
+          projectPath: Assets\data\CountriesLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\data\CountriesLoader.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountriesLoader.cs.meta
+          projectPath: Assets\data\CountriesLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\data\CountryIndices.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountryIndices.png
+          projectPath: Assets\data\CountryIndices.png
+          originalPath: Assets\CountryIndices.png
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\data\CountryIndices.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\CountryIndices.png.meta
+          projectPath: Assets\data\CountryIndices.png.meta
+          originalPath: Assets\CountryIndices.png.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\data\countries.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\countries.json
+          projectPath: Assets\data\countries.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\data\countries.json.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\data\countries.json.meta
+          projectPath: Assets\data\countries.json.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\UIController.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+          projectPath: Assets\ui\UIController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ecd13333827b55f76ac3f654e2f9cae53961c4ce
+        mergeA: 
+        mergeB: 
+        authorName: "Florian K\xF6nig"
+        authorEmail: koenidv@gmail.com
+        commitEmail: koenidv@gmail.com
+        commitName: "Florian K\xF6nig"
+        summary: fix country index map
+        description: 
+        timeString: 2024-05-12T17:12:17.000+01:00
+        commitTimeString: 2024-05-12T17:12:17.000+01:00
+        changes:
+        - path: Assets\Country Index Map.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png
+          projectPath: Assets\Country Index Map.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\CountryIndex.compute
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+          projectPath: Assets\CountryIndex.compute
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\CountryIndices.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndices.png
+          projectPath: Assets\CountryIndices.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CountryIndices.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndices.png.meta
+          projectPath: Assets\CountryIndices.png.meta
+          originalPath: Assets\Country Index Map.png.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\CountryLookup.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+          projectPath: Assets\CountryLookup.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\GameScene.unity
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+          projectPath: Assets\GameScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 3876291199e1fa728633e301a32e91ede9fc81d4
+        mergeA: 
+        mergeB: 
+        authorName: "Florian K\xF6nig"
+        authorEmail: koenidv@gmail.com
+        commitEmail: koenidv@gmail.com
+        commitName: "Florian K\xF6nig"
+        summary: 'feat: find country index'
+        description: 
+        timeString: 2024-05-12T15:05:20.000+01:00
+        commitTimeString: 2024-05-12T15:05:20.000+01:00
+        changes:
+        - path: Assets\CoordinateCalculator.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs
+          projectPath: Assets\CoordinateCalculator.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Country Index Map.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png
+          projectPath: Assets\Country Index Map.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Country Index Map.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Country Index Map.png.meta
+          projectPath: Assets\Country Index Map.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CountryIndex.compute
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute
+          projectPath: Assets\CountryIndex.compute
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CountryIndex.compute.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryIndex.compute.meta
+          projectPath: Assets\CountryIndex.compute.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CountryLookup.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs
+          projectPath: Assets\CountryLookup.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CountryLookup.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CountryLookup.cs.meta
+          projectPath: Assets\CountryLookup.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameScene.unity
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+          projectPath: Assets\GameScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\types.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types.meta
+          projectPath: Assets\types.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\types\Coordinate.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types\Coordinate.cs
+          projectPath: Assets\types\Coordinate.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\types\Coordinate.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\types\Coordinate.cs.meta
+          projectPath: Assets\types\Coordinate.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\UIController.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+          projectPath: Assets\ui\UIController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: b3609805c85cdd73db24ff0fa8848e39bc2a7553
+        mergeA: 
+        mergeB: 
+        authorName: "Florian K\xF6nig"
+        authorEmail: koenidv@gmail.com
+        commitEmail: koenidv@gmail.com
+        commitName: "Florian K\xF6nig"
+        summary: first game prototype
+        description: 
+        timeString: 2024-05-11T22:43:00.000+01:00
+        commitTimeString: 2024-05-11T22:43:00.000+01:00
+        changes:
+        - path: Assets\CoordinateCalculator.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs
+          projectPath: Assets\CoordinateCalculator.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CoordinateCalculator.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\CoordinateCalculator.cs.meta
+          projectPath: Assets\CoordinateCalculator.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameCamera.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameCamera.cs
+          projectPath: Assets\GameCamera.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameCamera.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameCamera.cs.meta
+          projectPath: Assets\GameCamera.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameScene.unity
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity
+          projectPath: Assets\GameScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameScene.unity.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\GameScene.unity.meta
+          projectPath: Assets\GameScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Images.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images.meta
+          projectPath: Assets\Images.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Images\Compass.CardinalDirections 1.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.CardinalDirections
+            1.png
+          projectPath: Assets\Images\Compass.CardinalDirections 1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Images\Compass.CardinalDirections 1.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.CardinalDirections
+            1.png.meta
+          projectPath: Assets\Images\Compass.CardinalDirections 1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Images\Compass.Needle 1.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.Needle
+            1.png
+          projectPath: Assets\Images\Compass.Needle 1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Images\Compass.Needle 1.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Images\Compass.Needle
+            1.png.meta
+          projectPath: Assets\Images\Compass.Needle 1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\PlanetSettings.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\PlanetSettings.cs
+          projectPath: Assets\PlanetSettings.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\PlanetSettings.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\PlanetSettings.cs.meta
+          projectPath: Assets\PlanetSettings.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Player.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Player.cs
+          projectPath: Assets\Player.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Player.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Player.cs.meta
+          projectPath: Assets\Player.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro.meta
+          projectPath: Assets\TextMesh Pro.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation.meta
+          projectPath: Assets\TextMesh Pro\Documentation.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation\TextMesh
+            Pro User Guide 2016.pdf
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Documentation\TextMesh
+            Pro User Guide 2016.pdf.meta
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts.meta
+          projectPath: Assets\TextMesh Pro\Fonts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans
+            - OFL.txt
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans
+            - OFL.txt.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources.meta
+          projectPath: Assets\TextMesh Pro\Resources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+            & Materials.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+            SDF.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\Jost-VariableFont_wght SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+            SDF.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+            SDF.asset.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\Jost-VariableFont_wght SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\Jost-VariableFont_wght.ttf
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\Jost-VariableFont_wght.ttf.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Jost-VariableFont_wght.ttf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+            Following Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+            Following Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+            Leading Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\LineBreaking
+            Leading Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+            Assets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+            Assets\EmojiOne.asset
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Sprite
+            Assets\EmojiOne.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+            Sheets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+            Sheets\Default Style Sheet.asset
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\Style
+            Sheets\Default Style Sheet.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\TMP
+            Settings.asset
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Resources\TMP
+            Settings.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders.meta
+          projectPath: Assets\TextMesh Pro\Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+            Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+            Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+            SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF
+            SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            Masking.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            Masking.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile
+            SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites.meta
+          projectPath: Assets\TextMesh Pro\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne
+            Attribution.txt
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne
+            Attribution.txt.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.json
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.png
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Util.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Util.cs
+          projectPath: Assets\Util.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Util.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\Util.cs.meta
+          projectPath: Assets\Util.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input.meta
+          projectPath: Assets\input.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputActions.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.cs
+          projectPath: Assets\input\InputActions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputActions.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.cs.meta
+          projectPath: Assets\input\InputActions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputActions.inputactions
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.inputactions
+          projectPath: Assets\input\InputActions.inputactions
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputActions.inputactions.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputActions.inputactions.meta
+          projectPath: Assets\input\InputActions.inputactions.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputHandler.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputHandler.cs
+          projectPath: Assets\input\InputHandler.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputHandler.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputHandler.cs.meta
+          projectPath: Assets\input\InputHandler.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputSystem.inputsettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputSystem.inputsettings.asset
+          projectPath: Assets\input\InputSystem.inputsettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\input\InputSystem.inputsettings.asset.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\input\InputSystem.inputsettings.asset.meta
+          projectPath: Assets\input\InputSystem.inputsettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models.meta
+          projectPath: Assets\models.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\HelicopterLight_v001.controller
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\HelicopterLight_v001.controller
+          projectPath: Assets\models\HelicopterLight_v001.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\HelicopterLight_v001.controller.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\HelicopterLight_v001.controller.meta
+          projectPath: Assets\models\HelicopterLight_v001.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\Player_Model.FBX
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Player_Model.FBX
+          projectPath: Assets\models\Player_Model.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\Player_Model.FBX.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Player_Model.FBX.meta
+          projectPath: Assets\models\Player_Model.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\Water_Baked.png
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Water_Baked.png
+          projectPath: Assets\models\Water_Baked.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\Water_Baked.png.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\Water_Baked.png.meta
+          projectPath: Assets\models\Water_Baked.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\planet.fbx
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\planet.fbx
+          projectPath: Assets\models\planet.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\models\planet.fbx.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\models\planet.fbx.meta
+          projectPath: Assets\models\planet.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old.meta
+          projectPath: Assets\old.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\DragOrbit.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\DragOrbit.cs
+          projectPath: Assets\old\DragOrbit.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\DragOrbit.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\DragOrbit.cs.meta
+          projectPath: Assets\old\DragOrbit.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\MoveRotatePlanet.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveRotatePlanet.cs
+          projectPath: Assets\old\MoveRotatePlanet.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\MoveRotatePlanet.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveRotatePlanet.cs.meta
+          projectPath: Assets\old\MoveRotatePlanet.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\MoveTiltHeli.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveTiltHeli.cs
+          projectPath: Assets\old\MoveTiltHeli.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\MoveTiltHeli.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\MoveTiltHeli.cs.meta
+          projectPath: Assets\old\MoveTiltHeli.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\camera.fbx
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\camera.fbx
+          projectPath: Assets\old\camera.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\old\camera.fbx.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\old\camera.fbx.meta
+          projectPath: Assets\old\camera.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui.meta
+          projectPath: Assets\ui.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\Compass.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\Compass.cs
+          projectPath: Assets\ui\Compass.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\Compass.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\Compass.cs.meta
+          projectPath: Assets\ui\Compass.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\UIController.cs
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs
+          projectPath: Assets\ui\UIController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\ui\UIController.cs.meta
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\ui\UIController.cs.meta
+          projectPath: Assets\ui\UIController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.polybrush\Settings.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.polybrush\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.polybrush\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.probuilder\Settings.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.probuilder\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.probuilder\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 42a04ef37b588e9bf78303776dfc433e875b9957
+        mergeA: 
+        mergeB: 
+        authorName: "Florian K\xF6nig"
+        authorEmail: koenidv@gmail.com
+        commitEmail: koenidv@gmail.com
+        commitName: "Florian K\xF6nig"
+        summary: Initial commit
+        description: 
+        timeString: 2024-05-11T22:42:03.000+01:00
+        commitTimeString: 2024-05-11T22:42:03.000+01:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: 0
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys:
+        - Assets
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .gitattributes
+        label: .gitattributes
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitattributes
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\.gitignore
+        label: .gitignore
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\.gitignore
+          fullPath: C:\Users\koeni\Dingsen und Dongsen\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Program Files\Git\cmd\git.exe
+      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+      installSettingsHidden: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2024-05-12T18:07:00.375+01:00
+      cacheType: 1
+    newRepositoryRemoteUrl: git@github.com:koenidv/cultureonair.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: git@github.com:koenidv/cultureonair.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: "Florian K\xF6nig"
+      gitEmail: koenidv@gmail.com
+      newGitName: "Florian K\xF6nig"
+      newGitEmail: koenidv@gmail.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2024-05-12T18:05:46.517+01:00
+        cacheType: 8
+      configSettingsHidden: 0
+    repositorySettingsHidden: 0
+    generalSettingsHidden: 0
+    debugSettingsHidden: 0
+    uiSceneSettingsHidden: 0
+    uiProjectSettingsHidden: 0
+  locksView:
+    currentRemoteHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 1
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 00:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2024-05-12T18:07:00.375+01:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2024-05-12T18:07:13.289+01:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\koeni\Dingsen und Dongsen\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: git@github.com:koenidv/cultureonair.git
+  statusAhead: 3
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: main
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: git@github.com:koenidv/cultureonair.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2024-05-15T12:57:03.523+01:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2024-05-15T12:58:36.980+01:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2024-05-15T12:58:36.954+01:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 

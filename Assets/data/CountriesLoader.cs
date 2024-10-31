@@ -26,6 +26,7 @@ public struct CountryInfo
     public string c_name;
     public string p_id;
     public string p_name;
+    public bool ocean;
 
     public override bool Equals(object obj)
     {

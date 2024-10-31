@@ -8,18 +8,31 @@ public class GameController : MonoBehaviour
     public PlanetSettings planetSettings;
     public DialogController dialogController;
     public CountryLookup countryLookup;
-    private CoordinateCalculator coordinateCalculator;
+    public SpotifyController spotifyController;
 
     [Header("Computed values")]
     public Coordinate coordinates;
     public CountryInfo hoveredCountry;
     public CountryInfo selectedCountry;
+    
+    
+    private CoordinateCalculator coordinateCalculator;
 
     private void OnEnable()
     {
         coordinateCalculator = new CoordinateCalculator(planetSettings.radius);
     }
 
+    private void Start()
+    {
+        coordinates = coordinateCalculator.CalculateRealCoordinates(player.transform.position);
+        CountryInfo? startCountry = countryLookup.LookupCountry(coordinates);
+        if (startCountry != null) hoveredCountry = (CountryInfo)startCountry;
+        selectedCountry = hoveredCountry;
+        dialogController.DisplayWelcomeMessage();
+
+        SelectCountry(selectedCountry);
+    }
 
     void Update()
     {
@@ -29,18 +42,27 @@ public class GameController : MonoBehaviour
         if (!newHovered.Equals(hoveredCountry) && !newHovered.Equals(selectedCountry))
         {
             hoveredCountry = newHovered;
-            bool accepted = dialogController.RequestCountrySwitch(hoveredCountry);
-            if (accepted) SelectCountry(hoveredCountry);
+            bool accepted = dialogController.RequestCountrySwitch(hoveredCountry, OnAcceptCountry);
+            if (accepted) spotifyController.PrepareCountry(hoveredCountry);
         }
         else if (newHovered.Equals(selectedCountry) && !newHovered.Equals(hoveredCountry))
         {
+            hoveredCountry = newHovered;
             dialogController.CancelCountrySwitchRequest();
         }
+    }
 
+    private void OnAcceptCountry(CountryInfo country)
+    {
+        if (country.Equals(hoveredCountry))
+        {
+            SelectCountry(country);
+        }
     }
 
     public void SelectCountry(CountryInfo country)
     {
         selectedCountry = country;
+        spotifyController.SetCountry(country);
     }
 }

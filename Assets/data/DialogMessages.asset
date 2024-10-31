@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a99fa0048bc73c42a6d522a7a5a120a, type: 3}
+  m_Name: DialogMessages
+  m_EditorClassIdentifier: 
+  welcomeMessageDesktop: Hey, I'm your ATC! Use WASD to move and Space to boost.
+    Let's explore what the world listens to!
+  welcomeMessageMobile: Hey, I'm your ATC! Let's explore what the world listens to!
+  errorMessage: 'I ran into an error: {0}'
+  autoSwitchMessages:
+  - I'm switching frequencies to {0}!
+  - Switching you over to {0}!
+  - Welcome to {0}!
+  - Let's hear the vibes of {0}!
+  - Let's groove with {0}!
+  - Let's explore what {0} is listening to!
+  - Connecting you to {0}!
+  - Let's vibe together with {0}!
+  manualSwitchMessages:
+  - Welcome to {0}! Switch over?
+  - Switch frequencies to {0}?
+  - Switch over to {0}?
+  - Connect to {0}?
+  - Explore the audio of {0}?

@@ -157,7 +157,9 @@
     },
     {
         "c_id": "BRN",
-        "c_name": "Brunei"
+        "c_name": "Brunei",
+        "p_id": "4buZWh6IvedusMWSLGaHfP",
+        "p_name": "Brunei's Hits"
     },
     {
         "c_id": "BTN",
@@ -683,7 +685,9 @@
     },
     {
         "c_id": "MHL",
-        "c_name": "Marshall Is."
+        "c_name": "Marshall Is.",
+        "p_id": "1KKoiwyBvobkrWIKSY04zx",
+        "p_name": "Marshall island"
     },
     {
         "c_id": "MKD",
@@ -837,7 +841,9 @@
     },
     {
         "c_id": "PLW",
-        "c_name": "Palau"
+        "c_name": "Palau",
+        "p_id": "6Fr6HDXmioEC83aPfE6Vko",
+        "p_name": "Palauan Songs"
     },
     {
         "c_id": "PNG",
@@ -1177,50 +1183,87 @@
     },
     {
         "c_id": "OC_ARC",
-        "c_name": "Artic Ocean"
+        "c_name": "Arctic Ocean",
+        "ocean": true,
+        "p_id": "6d7bEDTNLfS7X4geA4oiMO",
+        "p_name": "Arctic Ocean Tour"
     },
     {
         "c_id": "OC_NATL",
-        "c_name": "North Atlantic"
+        "c_name": "North Atlantic",
+        "ocean": true,
+        "p_id": "7enHcrM1Lez4KEXdbDZvBA",
+        "p_name": "Atlantic Classic Mix"
     },
     {
         "c_id": "OC_SATL",
-        "c_name": "South Atlantic"
+        "c_name": "South Atlantic",
+        "ocean": true,
+        "p_id": "3I2VCNSOAlBUGmxnnrRxOv",
+        "p_name": "South Atlantic Winter 2022"
     },
     {
         "c_id": "OC_NPAC",
-        "c_name": "North Pacific"
+        "c_name": "North Pacific",
+        "ocean": true,
+        "p_id": "0SPhz9CtOVv7lVgrJ14L7f",
+        "p_name": "Ocean gate submarine playlist"
     },
     {
         "c_id": "OC_SPAC",
-        "c_name": "South Pacific"
+        "c_name": "South Pacific",
+        "ocean": true,
+        "p_id": "6ZgsxqNmR11yLkY6EaJ31p",
+        "p_name": "Ocean vibes"
     },
     {
         "c_id": "OC_BAL",
-        "c_name": "Baltic Sea"
+        "c_name": "Baltic Sea",
+        "ocean": true,
+        "p_id": "37i9dQZF1DX8shr5OgBdbQ",
+        "p_name": "Sea Shanties"
     },
     {
         "c_id": "OC_MED",
-        "c_name": "Mediterranean Sea"
+        "c_name": "Mediterranean Sea",
+        "ocean": true,
+        "p_id": "5CZOYiUkvdL3LcdLfuj2KX",
+        "p_name": "mediterranean sea"
     },
     {
         "c_id": "OC_IND",
-        "c_name": "Indian Ocean"
+        "c_name": "Indian Ocean",
+        "ocean": true,
+        "p_id": "0gCr0WPfQqgRvcINhrQjE5",
+        "p_name": "Mauritius / Ocean Indien 2024"
     },
     {
         "c_id": "OC_CHI",
-        "c_name": "South China Sea"
+        "c_name": "South China Sea",
+        "ocean": true,
+        "p_id": "7uWXRGJIWgw7fgEQd0vryI",
+        "p_name": "Beach"
     },
     {
         "c_id": "OC_SOU",
-        "c_name": "Southern Ocean"
+        "c_name": "Southern Ocean",
+        "ocean": true,
+        "p_id": "3JIuxsa97f0yBMLv4h96n8",
+        "p_name": "iceberg lounge - the batman"
     },
     {
         "c_id": "OC_BLK",
-        "c_name": "Black Sea"
+        "c_name": "Black Sea",
+        "ocean": true,
+        "p_id": "37i9dQZF1E8OdjhwQUAoq7",
+        "p_name": "Black Sea Radio"
+
     },
     {
         "c_id": "OC_CSP",
-        "c_name": "Caspian Sea"
+        "c_name": "Caspian Sea",
+        "ocean": true,
+        "p_id": "5FaP16UzQnOk3Z2izKUNxY",
+        "p_name": "Caspian Sea"
     }
 ]
