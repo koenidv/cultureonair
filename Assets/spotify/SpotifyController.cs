@@ -8,6 +8,22 @@ using System.Collections;
 using UnityEngine.Networking;
 using System.Web;
 using System.Net;
+using LitJson;
+
+// Classes for deserializing Spotify API response
+[System.Serializable]
+public class SpotifyTrackResponse
+{
+    public string name;
+    public SpotifyArtist[] artists;
+    public string preview_url;
+}
+
+[System.Serializable]
+public class SpotifyArtist
+{
+    public string name;
+}
 
 public class SpotifyController : MonoBehaviour
 {
@@ -97,19 +113,77 @@ public class SpotifyController : MonoBehaviour
 
     private IEnumerator FetchSongDetailsCoroutine(string url, System.Action<SongDetails> callback)
     {
-        var fetchStringTask = new TaskCompletionSource<string>();
-        yield return StartCoroutine(FetchStringCoroutine(url, result => fetchStringTask.SetResult(result)));
+        // Extract track ID from Spotify URL
+        // URL format: https://open.spotify.com/track/{trackId} or similar
+        string trackId = null;
+        Regex trackIdRg = new Regex(@"spotify\.com/track/([a-zA-Z0-9]+)");
+        Match trackIdMatch = trackIdRg.Match(url);
+        if (trackIdMatch.Success)
+        {
+            trackId = trackIdMatch.Groups[1].Value;
+        }
+        else
+        {
+            Debug.LogError($"Could not extract track ID from URL: {url}");
+            callback(new SongDetails("", "", ""));
+            yield break;
+        }
 
-        string raw = fetchStringTask.Task.Result;
+        // Fetch from the new API endpoint
+        string apiUrl = $"https://with.koeni.dev/spotify/tracks/{trackId}";
+        
+        using (UnityWebRequest request = UnityWebRequest.Get(apiUrl))
+        {
+            request.SetRequestHeader("User-Agent", "culture/on/air");
+            yield return request.SendWebRequest();
 
-        Regex nameRg = new Regex("<meta property=\"og:title\" content=\"(?<name>[^\"]+)\"\\/>");
-        string name = WebUtility.HtmlDecode(nameRg.Match(raw).Groups["name"].Value);
-        Regex artistRg = new Regex("<meta name=\"music:musician_description\" content=\"(?<artist>[^\"]+)\"\\/>");
-        string artist = WebUtility.HtmlDecode(artistRg.Match(raw).Groups["artist"].Value);
-        Regex urlRg = new Regex("<meta property=\"og:audio\" content=\"(?<url>[^\"]+)\"\\/>");
-        string previewUrl = urlRg.Match(raw).Groups["url"].Value;
-
-        callback(new SongDetails(name, artist, previewUrl));
+            if (request.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.LogError($"Connection error fetching track details: {request.error}");
+                callback(new SongDetails("", "", ""));
+            }
+            else if (request.result == UnityWebRequest.Result.ProtocolError)
+            {
+                long responseCode = request.responseCode;
+                if (responseCode == 404)
+                {
+                    Debug.LogWarning($"Track not found (404): {trackId}");
+                    callback(new SongDetails("", "", ""));
+                }
+                else if (responseCode == 500)
+                {
+                    Debug.LogError($"Server error (500) fetching track details: {trackId}");
+                    callback(new SongDetails("", "", ""));
+                }
+                else
+                {
+                    Debug.LogError($"Protocol error fetching track details: {request.error} (HTTP {responseCode})");
+                    callback(new SongDetails("", "", ""));
+                }
+            }
+            else
+            {
+                // Parse JSON response
+                try
+                {
+                    string jsonResponse = request.downloadHandler.text;
+                    SpotifyTrackResponse trackResponse = JsonMapper.ToObject<SpotifyTrackResponse>(jsonResponse);
+                    
+                    string name = trackResponse.name ?? "";
+                    string artist = trackResponse.artists != null && trackResponse.artists.Length > 0 
+                        ? trackResponse.artists[0].name 
+                        : "";
+                    string previewUrl = trackResponse.preview_url ?? "";
+                    
+                    callback(new SongDetails(name, artist, previewUrl));
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogError($"Error parsing track details JSON: {e.Message}");
+                    callback(new SongDetails("", "", ""));
+                }
+            }
+        }
     }
 
     public IEnumerator FetchStringCoroutine(string url, Action<string> callback)
