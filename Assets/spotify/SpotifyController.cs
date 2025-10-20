@@ -36,7 +36,7 @@ public class SpotifyController : MonoBehaviour
     [SerializeField] private PlaylistDetails? preparedData;
 
     // Static regex for extracting track ID from Spotify URLs
-    private static readonly Regex TrackIdRegex = new Regex(@"spotify\.com/track/([a-zA-Z0-9]+)");
+    private static readonly Regex TrackIdRegex = new Regex(@"spotify\.com/track/([a-zA-Z0-9]+)", RegexOptions.Compiled);
 
     public void PrepareCountry(CountryInfo country)
     {
