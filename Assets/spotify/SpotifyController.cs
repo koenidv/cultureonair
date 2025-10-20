@@ -152,18 +152,20 @@ public class SpotifyController : MonoBehaviour
                 {
                     Debug.LogWarning($"Track not found (404): {trackId}");
                     callback(new SongDetails("", "", ""));
+                    yield break;
                 }
                 else if (responseCode == 500)
                 {
                     Debug.LogError($"Server error (500) fetching track details: {trackId}");
                     callback(new SongDetails("", "", ""));
+                    yield break;
                 }
                 else
                 {
                     Debug.LogError($"Protocol error fetching track details: {request.error} (HTTP {responseCode})");
                     callback(new SongDetails("", "", ""));
+                    yield break;
                 }
-                yield break;
             }
             else
             {
