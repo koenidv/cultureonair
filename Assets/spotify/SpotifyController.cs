@@ -35,6 +35,9 @@ public class SpotifyController : MonoBehaviour
     [SerializeField] private bool isPreparing;
     [SerializeField] private PlaylistDetails? preparedData;
 
+    // Static regex for extracting track ID from Spotify URLs
+    private static readonly Regex TrackIdRegex = new Regex(@"spotify\.com/track/([a-zA-Z0-9]+)");
+
     public void PrepareCountry(CountryInfo country)
     {
         if (this.preparedCountry.Equals(country)) return;
@@ -116,8 +119,7 @@ public class SpotifyController : MonoBehaviour
         // Extract track ID from Spotify URL
         // URL format: https://open.spotify.com/track/{trackId} or similar
         string trackId = null;
-        Regex trackIdRg = new Regex(@"spotify\.com/track/([a-zA-Z0-9]+)");
-        Match trackIdMatch = trackIdRg.Match(url);
+        Match trackIdMatch = TrackIdRegex.Match(url);
         if (trackIdMatch.Success)
         {
             trackId = trackIdMatch.Groups[1].Value;
@@ -141,6 +143,7 @@ public class SpotifyController : MonoBehaviour
             {
                 Debug.LogError($"Connection error fetching track details: {request.error}");
                 callback(new SongDetails("", "", ""));
+                yield break;
             }
             else if (request.result == UnityWebRequest.Result.ProtocolError)
             {
@@ -160,6 +163,7 @@ public class SpotifyController : MonoBehaviour
                     Debug.LogError($"Protocol error fetching track details: {request.error} (HTTP {responseCode})");
                     callback(new SongDetails("", "", ""));
                 }
+                yield break;
             }
             else
             {
@@ -181,6 +185,7 @@ public class SpotifyController : MonoBehaviour
                 {
                     Debug.LogError($"Error parsing track details JSON: {e.Message}");
                     callback(new SongDetails("", "", ""));
+                    yield break;
                 }
             }
         }
