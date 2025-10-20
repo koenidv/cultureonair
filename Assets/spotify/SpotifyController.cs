@@ -83,10 +83,11 @@ public class SpotifyController : MonoBehaviour
         List<SongDetails> songDetails = new List<SongDetails>();
         foreach (var song in allSongs)
         {
-            if (songDetails.Count >= numberSongs) break;
-            
             // Check if country changed during async operation
             if (!this.preparedCountry.Equals(country)) yield break;
+            
+            // Stop if we've already collected enough songs (matching original behavior)
+            if (songDetails.Count > numberSongs) break;
             
             if (Uri.IsWellFormedUriString(song.previewUrl, UriKind.Absolute))
             {
