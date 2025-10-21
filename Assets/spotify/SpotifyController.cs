@@ -8,6 +8,41 @@ using System.Collections;
 using UnityEngine.Networking;
 using System.Web;
 using System.Net;
+using LitJson;
+
+// Classes for deserializing Spotify API response
+[System.Serializable]
+public class SpotifyPlaylistResponse
+{
+    public string name;
+    public SpotifyPlaylistTracks tracks;
+}
+
+[System.Serializable]
+public class SpotifyPlaylistTracks
+{
+    public SpotifyTrack[] items;
+}
+
+[System.Serializable]
+public class SpotifyTrack
+{
+    public SpotifyTrackInfo track;
+}
+
+[System.Serializable]
+public class SpotifyTrackInfo
+{
+    public string name;
+    public SpotifyArtist[] artists;
+    public string preview_url;
+}
+
+[System.Serializable]
+public class SpotifyArtist
+{
+    public string name;
+}
 
 public class SpotifyController : MonoBehaviour
 {
@@ -37,25 +72,26 @@ public class SpotifyController : MonoBehaviour
     private IEnumerator PrepareCountryCoroutine(CountryInfo country)
     {
         preparedData = null;
-        var playlistDetails = new TaskCompletionSource<(string, string[])>();
-        yield return StartCoroutine(FetchPlaylistDetailsCoroutine(country.p_id, result => playlistDetails.SetResult(result)));
+        
+        // Fetch playlist and all track details from the new API endpoint
+        var playlistDataTask = new TaskCompletionSource<(string, SongDetails[])>();
+        yield return StartCoroutine(FetchPlaylistWithTracksCoroutine(country.p_id, result => playlistDataTask.SetResult(result)));
 
-        var (playlistName, songUrls) = playlistDetails.Task.Result;
+        var (playlistName, allSongs) = playlistDataTask.Task.Result;
 
+        // Filter songs to only include those with valid preview URLs and limit to numberSongs
         List<SongDetails> songDetails = new List<SongDetails>();
-        int urlIndex = 0;
-
-        while (urlIndex++ < songUrls.Length && songDetails.Count <= numberSongs)
+        foreach (var song in allSongs)
         {
-            string url = songUrls[urlIndex];
-            // as this is async, check if country changed
+            // Check if country changed during async operation
             if (!this.preparedCountry.Equals(country)) yield break;
-
-            var songDetailsTask = new TaskCompletionSource<SongDetails>();
-            yield return StartCoroutine(FetchSongDetailsCoroutine(url, result => songDetailsTask.SetResult(result)));
-            if (Uri.IsWellFormedUriString(songDetailsTask.Task.Result.previewUrl, UriKind.Absolute))
+            
+            // Stop if we've already collected enough songs (matching original behavior)
+            if (songDetails.Count > numberSongs) break;
+            
+            if (Uri.IsWellFormedUriString(song.previewUrl, UriKind.Absolute))
             {
-                songDetails.Add(songDetailsTask.Task.Result);
+                songDetails.Add(song);
             }
         }
 
@@ -93,6 +129,84 @@ public class SpotifyController : MonoBehaviour
         string[] songUrls = songMatches.Cast<Match>().Select(match => match.Groups["url"].Value).ToArray();
 
         callback((name, songUrls));
+    }
+
+    private IEnumerator FetchPlaylistWithTracksCoroutine(string playlistId, System.Action<(string, SongDetails[])> callback)
+    {
+        // Fetch from the new API endpoint that returns playlist with all track details
+        string apiUrl = $"https://with.koeni.dev/spotify/tracks?playlistId={playlistId}";
+        
+        using (UnityWebRequest request = UnityWebRequest.Get(apiUrl))
+        {
+            request.SetRequestHeader("User-Agent", "culture/on/air");
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.ConnectionError)
+            {
+                Debug.LogError($"Connection error fetching playlist: {request.error}");
+                callback(("", new SongDetails[0]));
+                yield break;
+            }
+            else if (request.result == UnityWebRequest.Result.ProtocolError)
+            {
+                long responseCode = request.responseCode;
+                if (responseCode == 404)
+                {
+                    Debug.LogWarning($"Playlist not found (404): {playlistId}");
+                    callback(("", new SongDetails[0]));
+                    yield break;
+                }
+                else if (responseCode == 500)
+                {
+                    Debug.LogError($"Server error (500) fetching playlist: {playlistId}");
+                    callback(("", new SongDetails[0]));
+                    yield break;
+                }
+                else
+                {
+                    Debug.LogError($"Protocol error fetching playlist: {request.error} (HTTP {responseCode})");
+                    callback(("", new SongDetails[0]));
+                    yield break;
+                }
+            }
+            else
+            {
+                // Parse JSON response
+                try
+                {
+                    string jsonResponse = request.downloadHandler.text;
+                    SpotifyPlaylistResponse playlistResponse = JsonMapper.ToObject<SpotifyPlaylistResponse>(jsonResponse);
+                    
+                    string playlistName = playlistResponse.name ?? "";
+                    List<SongDetails> songs = new List<SongDetails>();
+                    
+                    if (playlistResponse.tracks != null && playlistResponse.tracks.items != null)
+                    {
+                        foreach (var item in playlistResponse.tracks.items)
+                        {
+                            if (item?.track != null)
+                            {
+                                string name = item.track.name ?? "";
+                                string artist = item.track.artists != null && item.track.artists.Length > 0 
+                                    ? item.track.artists[0].name 
+                                    : "";
+                                string previewUrl = item.track.preview_url ?? "";
+                                
+                                songs.Add(new SongDetails(name, artist, previewUrl));
+                            }
+                        }
+                    }
+                    
+                    callback((playlistName, songs.ToArray()));
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogError($"Error parsing playlist JSON: {e.Message}");
+                    callback(("", new SongDetails[0]));
+                    yield break;
+                }
+            }
+        }
     }
 
     private IEnumerator FetchSongDetailsCoroutine(string url, System.Action<SongDetails> callback)
