@@ -134,7 +134,7 @@ public class SpotifyController : MonoBehaviour
     private IEnumerator FetchPlaylistWithTracksCoroutine(string playlistId, System.Action<(string, SongDetails[])> callback)
     {
         // Fetch from the new API endpoint that returns playlist with all track details
-        string apiUrl = $"https://with.koeni.dev/spotify/tracks/{playlistId}";
+        string apiUrl = $"https://with.koeni.dev/spotify/tracks?playlistId={playlistId}";
         
         using (UnityWebRequest request = UnityWebRequest.Get(apiUrl))
         {
