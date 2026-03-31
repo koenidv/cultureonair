@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 public class DialogController : MonoBehaviour
 {
     public GameController gameController;
-    public SpotifyView spotifyView;
+    public DeezerView deezerView;
 
     public Image characterImage;
     public TextMeshProUGUI messageText;
@@ -118,7 +118,7 @@ public class DialogController : MonoBehaviour
 
     private void Show()
     {
-        spotifyView.Hide();
+        deezerView.Hide();
         animateTarget = Vector2.zero;
     }
 
@@ -126,7 +126,7 @@ public class DialogController : MonoBehaviour
     {
         animateTarget = new Vector2(0, -rt.rect.size.y * 2);
         hideDialogTime = null;
-        spotifyView.Show();
+        deezerView.Show();
         pendingOnHide?.Invoke();
         pendingOnHide = null;
     }

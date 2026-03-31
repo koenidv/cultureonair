@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     public PlanetSettings planetSettings;
     public DialogController dialogController;
     public CountryLookup countryLookup;
-    public SpotifyController spotifyController;
+    public DeezerController deezerController;
 
     [Header("Computed values")]
     public Coordinate coordinates;
@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour
         {
             hoveredCountry = newHovered;
             bool accepted = dialogController.RequestCountrySwitch(hoveredCountry, OnAcceptCountry);
-            if (accepted) spotifyController.PrepareCountry(hoveredCountry);
+            if (accepted) deezerController.PrepareCountry(hoveredCountry);
         }
         else if (newHovered.Equals(selectedCountry) && !newHovered.Equals(hoveredCountry))
         {
@@ -63,6 +63,6 @@ public class GameController : MonoBehaviour
     public void SelectCountry(CountryInfo country)
     {
         selectedCountry = country;
-        spotifyController.SetCountry(country);
+        deezerController.SetCountry(country);
     }
 }
