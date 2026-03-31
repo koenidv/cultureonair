@@ -21,19 +21,6 @@ public class DeezerController : MonoBehaviour
     [SerializeField] private bool hasPreparedData;
 
     private const string WORLDWIDE_PLAYLIST_ID = "3155776842";
-    private Dictionary<string, string> countryIdMap = new Dictionary<string, string>
-    {
-        { "USA", "1313621735" },
-        { "GBR", "1116189381" },
-        { "DEU", "1116190041" },
-        { "FRA", "1109890291" },
-        { "BRA", "1116188581" },
-        { "MEX", "1116189901" },
-        { "CAN", "1116189141" },
-        { "IRL", "1116189601" },
-        { "NLD", "1116189111" },
-        { "ESP", "1116190041" }
-    };
 
     public void PrepareCountry(CountryInfo country)
     {
@@ -57,19 +44,13 @@ public class DeezerController : MonoBehaviour
         
         string playlistId = null;
         
-        // 1. Check hardcoded map
-        if (countryIdMap.ContainsKey(country.c_id))
-        {
-            playlistId = countryIdMap[country.c_id];
-        }
-        
-        // 2. Check if p_id is a Deezer ID (numeric)
-        if (string.IsNullOrEmpty(playlistId) && !string.IsNullOrEmpty(country.p_id) && long.TryParse(country.p_id, out _))
+        // 1. Use the ID from our data file (prioritize data-driven config)
+        if (!string.IsNullOrEmpty(country.p_id) && long.TryParse(country.p_id, out _))
         {
             playlistId = country.p_id;
         }
 
-        // 3. Search for playlist if not found
+        // 2. Search for playlist if not found or invalid
         if (string.IsNullOrEmpty(playlistId))
         {
             var searchTask = new TaskCompletionSource<string>();
@@ -77,7 +58,7 @@ public class DeezerController : MonoBehaviour
             playlistId = searchTask.Task.Result;
         }
 
-        // 4. Fallback to Worldwide
+        // 3. Fallback to Worldwide
         if (string.IsNullOrEmpty(playlistId))
         {
             playlistId = WORLDWIDE_PLAYLIST_ID;
